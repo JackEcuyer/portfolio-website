@@ -10,7 +10,7 @@ export default function Navbar() {
     setToggleMenu(!toggleMenu);
   };
   return (
-    <nav className="w-screen bg-dark drop-shadow-xl">
+    <nav className="w-screen bg-grey drop-shadow-xl">
       <div className="flex items-center justify-between h-[70px]">
         <div>
           <h1 className="ml-2 text-4xl font-bold text-white cursor-pointer md:text-5xl">
