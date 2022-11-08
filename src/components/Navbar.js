@@ -10,22 +10,22 @@ export default function Navbar() {
     setToggleMenu(!toggleMenu);
   };
   return (
-    <nav className="w-screen bg-grey drop-shadow-xl">
-      <div className="flex items-center justify-between h-[70px]">
+    <nav className="w-screen bg-dark h-[70px]">
+      <div className="flex items-center justify-between h-full">
         <div>
-          <h1 className="ml-2 text-4xl font-bold text-white cursor-pointer md:text-5xl">
-            JACK ECUYER
+          <h1 className="ml-5 text-4xl italic font-light text-white cursor-pointer md:text-5xl">
+            JE
           </h1>
         </div>
         <div className="hidden sm:flex">
           <ul className="flex text-lg text-white">
-            <li className="mx-5 cursor-pointer hover:text-brightRed hover:duration-300">
+            <li className="px-5 py-1 mx-2 border-[1px] font-semibold cursor-pointer rounded-3xl border-pink  hover:bg-pink hover:duration-200">
               About Me
             </li>
-            <li className="mx-5 cursor-pointer hover:text-brightRed hover:duration-300">
+            <li className="px-5 py-1 mx-2 border-[1px] font-semibold rounded-3xl border-pink cursor-pointer  hover:bg-pink hover:duration-200">
               My Projects
             </li>
-            <li className="mx-5 cursor-pointer hover:text-brightRed hover:duration-300">
+            <li className="px-5 py-1 mx-2 font-semibold cursor-pointer rounded-3xl bg-pink hover:bg-darkPink hover:duration-300">
               Contact
             </li>
           </ul>

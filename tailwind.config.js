@@ -9,6 +9,7 @@ module.exports = {
         brightRed: "#C3073F",
         darkRed: "#6F2232",
         pink: "#950740",
+        darkPink: "#7a0634",
       },
     },
   },
