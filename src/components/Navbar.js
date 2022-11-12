@@ -41,13 +41,13 @@ export default function Navbar() {
       {toggleMenu ? (
         <div className="w-full sm:hidden">
           <ul className="flex flex-col text-lg text-white">
-            <li className="pb-2 mx-2 my-2 text-center border-b-2 cursor-pointer hover:text-brightRed hover:duration-300">
+            <li className="pb-2 mx-2 my-2 text-center border-2 cursor-pointer hover:text-brightRed hover:duration-300">
               About Me
             </li>
-            <li className="pb-2 mx-2 my-2 text-center border-b-2 cursor-pointer hover:text-brightRed hover:duration-300">
+            <li className="pb-2 mx-2 my-2 text-center border-2 cursor-pointer hover:text-brightRed hover:duration-300">
               My Projects
             </li>
-            <li className="pb-2 mx-2 my-2 text-center border-b-2 cursor-pointer hover:text-brightRed hover:duration-300">
+            <li className="pb-2 mx-2 my-2 text-center border-2 cursor-pointer hover:text-brightRed hover:duration-300">
               Contact
             </li>
           </ul>
