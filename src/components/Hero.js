@@ -7,7 +7,8 @@ export default function Hero() {
   const [line1Complete, setLine1Complete] = useState(false);
   const [line2Complete, setLine2Complete] = useState(false);
   return (
-    <div className="w-screen h-[calc(100vh-70px)] bg-dark flex justify-center">
+    <div className="flex flex-col items-center w-screen h-screen bg-dark">
+      <div className="h-[70px]"></div>
       <div className="px-10 flex flex-col w-full h-full max-w-[1640px] items-center md:items-start">
         <div className="flex flex-col items-center justify-center flex-grow">
           <div className="flex flex-col w-full md:items-start">
@@ -39,7 +40,7 @@ export default function Hero() {
                 ]}
                 cursor={false}
                 wrapper="div"
-                speed={70}
+                speed={60}
                 className={
                   "m-0 text-2xl text-brightRed sm:text-4xl md:text-5xl w-full text-left"
                 }
@@ -49,7 +50,7 @@ export default function Hero() {
           <div
             className={
               line2Complete
-                ? "transition-all translate-y-1 duration-700 opacity-100 flex justify-start w-full mt-3"
+                ? "transition-all translate-y-1 duration-700 opacity-100 flex justify-start w-full mt-1 md:mt-2"
                 : "opacity-0"
             }
           >

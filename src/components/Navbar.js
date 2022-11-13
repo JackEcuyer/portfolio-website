@@ -10,7 +10,7 @@ export default function Navbar() {
     setToggleMenu(!toggleMenu);
   };
   return (
-    <nav className="w-screen bg-dark h-[70px]">
+    <nav className="fixed z-50 w-screen bg-dark h-[70px] bg-opacity-90">
       <div className="flex items-center justify-between h-full">
         <div>
           <h1 className="ml-5 text-4xl italic font-light text-white cursor-pointer md:text-5xl">
@@ -25,8 +25,11 @@ export default function Navbar() {
             <li className="px-5 py-1 mx-2 border-[1px] font-semibold rounded-3xl border-pink cursor-pointer  hover:bg-pink hover:duration-200">
               My Projects
             </li>
-            <li className="px-5 py-1 mx-2 font-semibold cursor-pointer rounded-3xl bg-pink hover:bg-darkPink hover:duration-300">
+            <li className="px-5 py-1 mx-2 border-[1px] font-semibold rounded-3xl border-pink cursor-pointer  hover:bg-pink hover:duration-200">
               Contact
+            </li>
+            <li className="px-5 py-1 mx-2 font-semibold cursor-pointer rounded-3xl bg-pink hover:bg-darkPink hover:duration-300">
+              Download CV
             </li>
           </ul>
         </div>
@@ -49,6 +52,9 @@ export default function Navbar() {
             </li>
             <li className="pb-2 mx-2 my-2 text-center border-2 cursor-pointer hover:text-brightRed hover:duration-300">
               Contact
+            </li>
+            <li className="pb-2 mx-2 my-2 text-center border-2 cursor-pointer hover:text-brightRed hover:duration-300">
+              Download CV
             </li>
           </ul>
         </div>
