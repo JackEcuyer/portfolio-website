@@ -50,8 +50,8 @@ export default function Hero() {
           <div
             className={
               line2Complete
-                ? "transition-all translate-y-1 duration-700 opacity-100 flex justify-start w-full mt-1 md:mt-2"
-                : "opacity-0"
+                ? "transition-all translate-y-0 duration-700 opacity-100 flex justify-start w-full mt-1 md:mt-2"
+                : "opacity-0 translate-y-10"
             }
           >
             <button className="font-semibold text-white px-5 py-1 text-xl md:text-2xl border-[2px] mr-3 rounded-3xl border-pink hover:bg-pink duration-300">
